@@ -24,4 +24,13 @@ before_install:
   - chmod +x gradlew
 
 script:
-  - ./gradlew assembleRelease 
+  - ./gradlew assembleRelease
+
+
+deploy:
+  provider: releases
+  api_key: c0a9709acdc8b456dd698ffd07c0d12d320a881c
+  file: app/build/outputs/apk/app-debug.apk
+  skip_cleanup: true
+  on:
+    tags: true
