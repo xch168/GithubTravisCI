@@ -26,7 +26,7 @@ deploy:
   provider: releases
   api_key:
     secure: JPTwSauS3eWCPlPl7kqI9boyYv/j55x+RC+PXHZEueemevNPNu0Z22U/t966BBjMwtIuQhXkCgaocJOI5gAjZ4Xgjkc1fxP9ziLxEu4tJZlX/Lq9vNbEmius7gNB5yS6AMt81yaO+ErFvtlVP7u4PAC7YSPyd6XOVlyoDwVgXQIftwZhjfF02gHhEd5nLJnumrFyqOjyQIDV5qQ4aj50sLg6ErJMX7UgRDhrGyN+oFIFQXHR/qSV0knYA3zIPUf11tnVqeOkH85eDwuRalGAeKecdlRv9Uze1Jfh9w4BLDULVNvcYFntfl3hFiFBvopX+6iGoAGxHk7iCFVUVKGwKi26vzksUhPidzHOHVFPLKBZfsJ1NfeLOdxb1+F96GYZy6zf2uShisVNiNgDvl0ArAMydDu/cqqpEixiBOhCRaqv+hpjpRrZi5AdzbjiAuLPbN0V5ZKZrCXf3Z1qf2q3s/qWhrdNjhdDyiy8R2icnmntFTy+UcRv/VJKm4YHxVuxJ7ph8CI48DtOK+nR/4d3WeICa1XPEH09kQm8Zj1PF83rZdHJgnaCmVogr/HFoL/VCfc59BjL7GAQPU8TRxaqKoTFgLNOaWCCBlltyTE5W4EYSMtjtGQ5fgZPJDxHzE76gFcHClsojsJRfToo20MO3pZo7QR7LiPK1t3zbl7JnzY=
-  file: app/build/outputs/apk/release/app-release.apk
+  file: app/build/outputs/apk/release/app-release-unsigned.apk
   skip_cleanup: true
   on:
     tags: true
